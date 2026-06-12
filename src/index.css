@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@theme {
+  --color-primary: #53B175;
+  --color-primary-light: #6FC88B;
+  --color-primary-dark: #3E955E;
+  --color-primary-soft: #E8F5EC;
+  
+  --color-dark: #181725;
+  --color-dark-muted: #7C7C7C;
+  --color-dark-light: #B1B1B1;
+
+  --color-bg-light: #F2F3F2;
+  --color-bg-card: #F2F3F2;
+
+  --color-accent-orange: #F8A44C;
+  --color-accent-purple: #F3A0FF;
+  --color-accent-blue: #579BFF;
+  --color-accent-pink: #D3B0E0;
+  --color-accent-yellow: #FFF9E2;
+
+  --font-sans: 'Inter', sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  margin: 0;
+  background-color: #ffffff;
+  color: #181725;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Glassmorphism custom classes */
+.glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
